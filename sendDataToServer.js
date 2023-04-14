@@ -1,6 +1,6 @@
 
 const sensorLib = require('node-dht-sensor'); // include existing module called ‘node-dht-sensor’
-const http = require('node:http');
+const http = require('http');
 
 // Setup sensor, exit if failed
 var sensorType = 11; // 11 for DHT11, 22 for DHT22 and AM2302
