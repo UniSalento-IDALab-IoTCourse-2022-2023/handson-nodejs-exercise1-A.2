@@ -3,6 +3,7 @@ const sensorLib = require('node-dht-sensor'); // include existing module called 
 const http = require('http');
 
 // Setup sensor, exit if failed
+//prova
 var sensorType = 11; // 11 for DHT11, 22 for DHT22 and AM2302
 var sensorPin = 4; // The GPIO pin number for sensor signal
 if (!sensorLib.initialize(sensorType, sensorPin))
